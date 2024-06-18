@@ -11,7 +11,6 @@ def stock_picker(prices)
     end
 
     potential_profit = price - prices[min_price_day]
-
     if potential_profit > max_profit
       max_profit = potential_profit
       best_days = [min_price_day, day]
